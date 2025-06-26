@@ -26,22 +26,22 @@
 **Findings**
 
 - Random Forest has a great precision but have poor recall because tree based method will not get a chance to explore the sparse space untill unless there are 10000s of random trees with a good depth
-- Best classifier is logistic regression with lasso with following preformance - 
-## Confusion Matrix
+- Best classifier is logistic regression with lasso with following preformance - <br>
+                                  ## Confusion Matrix
 
-|                      | Predicted Ham | Predicted Spam |
-|----------------------|---------------|----------------|
-| **Actual Ham**       | 710           | 25             |
-| **Actual Spam**      | 13            | 287            |
+                |                      | Predicted Ham | Predicted Spam |
+                |----------------------|---------------|----------------|
+                | **Actual Ham**       | 710           | 25             |
+                | **Actual Spam**      | 13            | 287            |
 
-### Performance Metrics
-- **Accuracy**: 0.9633
-- **Precision**: 0.9199
-- **Recall**: 0.9567
-- **F1 Score**: 0.9379
+                ### Performance Metrics
+                - **Accuracy**: 0.9633
+                - **Precision**: 0.9199
+                - **Recall**: 0.9567
+                - **F1 Score**: 0.9379
 
-- I have also used PCA with 45% varuance explained, which was giving this result - 
-            Explained variance ratio by PCA: 0.4522770080954638
+- I have also used PCA with 45% varuance explained, which was giving this result - <br>
+            Explained variance ratio by PCA: 0.4522770080954638<br>
                               ## Confusion Matrix
 
         |                      | Predicted Ham | Predicted Spam |
