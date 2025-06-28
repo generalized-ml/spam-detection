@@ -26,7 +26,21 @@
 **Findings**
 
 - Random Forest has a great precision but have poor recall because tree based method will not get a chance to explore the sparse space untill unless there are 10000s of random trees with a good depth
-- Best classifier is logistic regression with lasso with following preformance - <br>
+- Best classifier is XGboost with lasso with following preformance - <br>
+                                  ## Confusion Matrix
+
+                  |                      | **Predicted Ham** | **Predicted Spam** |
+                  |----------------------|-------------------|--------------------|
+                  | **Actual Ham**       | 714               | 21                 |
+                  | **Actual Spam**      | 9                 | 291                |
+
+                  ### Performance Metrics
+                  - **Accuracy**: 0.9710
+                  - **Precision**: 0.9327
+                  - **Recall**: 0.9700
+                  - **F1 Score**: 0.9510
+
+- Next Best classifier is logistic regression with lasso with following preformance - <br>
                                   ## Confusion Matrix
 
                 |                      | Predicted Ham | Predicted Spam |
